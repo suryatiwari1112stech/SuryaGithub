@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIML Student Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #9333ea);
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #60a5fa;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .skill-bar {
+      background: #1e293b;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    .skill-bar span {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .bar {
+      background: #334155;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .bar div {
+      height: 12px;
+      background: #9333ea;
+      width: 0;
+      animation: grow 2s forwards;
+    }
+    @keyframes grow {
+      to { width: 90%; }
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #facc15;
+    }
+    .card a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    footer {
+      background: #1e3a8a;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    footer a {
+      color: #facc15;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SURYA TIWARI</h1>
+    <p>AIML Student | Future ML Engineer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Innovative AIML student passionate about deep learning, NLP, and data-driven solutions. Dedicated to building intelligent systems that make a real-world impact.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-bar">
+        <span>Python</span>
+        <div class="bar"><div style="width:95%"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>TensorFlow / PyTorch</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>SQL / Pandas / NumPy</span>
+        <div class="bar"><div style="width:85%"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>Git / Docker / Cloud</span>
+        <div class="bar"><div style="width:80%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Image Classification (CNNs)</h3>
+        <p>Achieved 92% accuracy on CIFAR-10 dataset using deep CNNs.</p>
+        <a href="https://github.com/suryatiwari1112stech">GitHub Link</a>
+      </div>
+      <div class="card">
+        <h3>Chatbot (NLP)</h3>
+        <p>Built a transformer-based chatbot for customer support automation.</p>
+        <a href="https://github.com/suryatiwari1112stech">GitHub Link</a>
+      </div>
+      <div class="card">
+        <h3>Recommendation System</h3>
+        <p>Designed collaborative filtering movie recommender with scalable architecture.</p>
+        <a href="https://github.com/suryatiwari1112stech">GitHub Link</a>
+      </div>
+      <div class="card">
+        <h3>Predictive Analytics</h3>
+        <p>Forecasted sales trends using regression and ensemble models.</p>
+        <a href="https://github.com/suryatiwari1112stech">GitHub Link</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education & Certifications</h2>
+    <p>B.Tech in Computer Science (AIML specialization)</p>
+    <ul>
+      <li>Machine Learning by Andrew Ng (Coursera)</li>
+      <li>Deep Learning Specialization</li>
+      <li>Google Cloud ML Engineer Certification</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li>Hackathon Winner (AI/ML track)</li>
+      <li>Kaggle competition ranking in top 10%</li>
+      <li>Published paper in [Conference/Journal Name]</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>📧 suryatiwari1112@gmail.com</p>
+    <a href="https://www.linkedin.com/in/surya-tiwari-6810ba387/">LinkedIn</a> | <a href="https://github.com/suryatiwari1112stech">GitHub</a>
+  </footer>
+
+</body>
+</html>
